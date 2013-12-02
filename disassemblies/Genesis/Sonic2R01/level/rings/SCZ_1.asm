@@ -1,0 +1,21 @@
+	ringEntry	$230, $70, rngHorizontal, 3
+	ringEntry	$340, $20, rngHorizontal, 3
+	ringEntry	$390, $80, rngHorizontal, 3
+	ringEntry	$460, $80, rngHorizontal, 3
+	ringEntry	$600, $70, rngHorizontal, 3
+	ringEntry	$640, $48, rngHorizontal, 3
+	ringEntry	$680, $20, rngHorizontal, 3
+	ringEntry	$8A0, $30, rngHorizontal, 3
+	ringEntry	$8E0, $80, rngHorizontal, 3
+	ringEntry	$A50, $30, rngHorizontal, 3
+	ringEntry	$C00, $20, rngHorizontal, 3
+	ringEntry	$C40, $40, rngHorizontal, 3
+	ringEntry	$C80, $60, rngHorizontal, 3
+	ringEntry	$CC0, $80, rngHorizontal, 3
+	ringEntry	$1100, $30, rngHorizontal, 3
+	ringEntry	$11C0, $530, rngHorizontal, 4
+	ringEntry	$1200, $580, rngHorizontal, 4
+	ringEntry	$12E0, $530, rngHorizontal, 4
+	ringEntry	$1400, $580, rngHorizontal, 4
+	ringEntry	$F60, $510, rngVertical, 6
+	ringTerminator
