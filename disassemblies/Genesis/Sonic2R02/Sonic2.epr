@@ -1,0 +1,327 @@
+;
+; Arquivo de projeto Esrael Neto Assembler Editor para o Sonic 2 Final
+;
+;============================================================
+; O programa procurará o bloco de definições -> [Main]
+;============================================================
+
+[Main]
+  begin
+    Emerald Hill Zone Act 1                           
+    Emerald Hill Zone Act 2 
+    Metropolis Zone Act 1
+    Metropolis Zone Act 2
+    Metropolis Zone Act 3
+    Wing Fortress Zone
+    Hill Top Zone Act 1
+    Hill Top Zone Act 2
+    Hidden Palace Zone
+    Oil Ocean Zone Act 1
+    Oil Ocean Zone Act 2
+    Mystic Cave Zone Act 1
+    Mystic Cave Zone Act 2
+    Casino Night Zone Act 1
+    Casino Night Zone Act 2
+    Chemical Plant Zone Act 1
+    Chemical Plant Zone Act 2
+    Death Egg Zone
+    Aquatic Ruin Zone Act 1
+    Aquatic Ruin Zone Act 2
+    Sky Chase Zone      
+  end 
+;============================================================
+; [Mode] is an session identifier
+; "Mode 0" is a identifier and can have Any Name
+; "Level Mode" is a session assigned to "Mode 0"
+;============================================================
+[Modes]
+  begin   
+    Mode 0 = Level Mode
+  end;
+;------------------------------------------------------------
+[Level Mode]
+  begin
+    Edit Mode =   Level    
+    Tiles  =      Kosinski
+    Blocks =      Kosinski
+    Chunks =      kosinski
+    Layout =      Kosinski
+    Chunk Mode =  128x128
+    Bg Mode =     Interleaved
+    Respaw Mode = Y HiBit
+    Ring Mode =   Y HiBit
+    Object Path = %Project%\Editor
+  end;
+;============================================================
+[Emerald Hill Zone Act 1]
+  begin
+    Edit Type =   Mode 0 
+    Folder =      .\
+    Palette2 =    Data\EHz\EHz.Pal
+    Tiles  =      Data\EHz\Tiles.kos
+    Blocks =      Data\EHz\Blocks.kos
+    Chunks =      Data\EHz\Chunks.kos
+    Map =         Data\EHz\EHz_Map1.kos
+    Objects =     Data\Ehz\Obj_Act1.dat
+    Rings =       Data\Ehz\Rng_Act1.dat
+  end;
+;------------------------------------------------------------
+[Emerald Hill Zone Act 2]
+  begin
+    Edit Type =   Mode 0 
+    Folder =      .\
+    Palette2 =    Data\EHz\EHz.Pal
+    Tiles  =      Data\EHz\Tiles.kos
+    Blocks =      Data\EHz\Blocks.kos
+    Chunks =      Data\EHz\Chunks.kos
+    Map =         Data\EHz\EHz_Map2.kos
+    Objects =     Data\Ehz\Obj_Act2.dat
+    Rings =       Data\Ehz\Rng_Act2.dat
+  end;  
+;------------------------------------------------------------  
+[Metropolis Zone Act 1]
+  begin
+    Edit Type =   Mode 0 
+    Folder =      .\
+    Palette2 =    Data\Mz\Mz.Pal
+    Tiles  =      Data\Mz\Tiles.kos
+    Blocks =      Data\Mz\Blocks.kos
+    Chunks =      Data\Mz\Chunks.kos
+    Map =         Data\Mz\Mz_Map1.kos
+    Objects =     Data\Mz\Obj_Act1.dat
+    Rings =       Data\Mz\Rng_Act1.dat
+  end;
+;------------------------------------------------------------
+[Metropolis Zone Act 2]
+  begin
+    Edit Type =   Mode 0 
+    Folder =      .\
+    Palette2 =    Data\Mz\Mz.Pal
+    Tiles  =      Data\Mz\Tiles.kos
+    Blocks =      Data\Mz\Blocks.kos
+    Chunks =      Data\Mz\Chunks.kos
+    Map =         Data\Mz\Mz_Map2.kos
+    Objects =     Data\Mz\Obj_Act2.dat
+    Rings =       Data\Mz\Rng_Act2.dat
+  end;
+;------------------------------------------------------------
+[Metropolis Zone Act 3]
+  begin
+    Edit Type =   Mode 0 
+    Folder =      .\
+    Palette2 =    Data\Mz\Mz.Pal
+    Tiles  =      Data\Mz\Tiles.kos
+    Blocks =      Data\Mz\Blocks.kos
+    Chunks =      Data\Mz\Chunks.kos
+    Map =         Data\Mz\Mz_Map3.kos
+    Objects =     Data\Mz\Obj_Act3.dat
+    Rings =       Data\Mz\Rng_Act3.dat
+  end;
+;------------------------------------------------------------
+[Wing Fortress Zone]
+  begin
+    Edit Type =   Mode 0 
+    Folder =      .\
+    Palette2 =    Data\WFz\WFz.Pal
+    Tiles  =      Data\SCz\Tiles.kos
+    Blocks =      Data\SCz\Blocks.kos
+    Chunks =      Data\SCz\Chunks.kos
+    Map =         Data\WFz\WFz_Map.kos
+    Objects =     Data\WFz\Obj_Act.dat
+    Rings =       Data\WFz\Rng_Act.dat
+  end;
+;------------------------------------------------------------
+[Hill Top Zone Act 1]
+  begin
+    Edit Type =   Mode 0 
+    Folder =      .\
+    Palette2 =    Data\HTz\HTz.Pal
+    Tiles  =      Data\EHz\Tiles.kos
+    Blocks =      Data\EHz\Blocks.kos
+    Chunks =      Data\EHz\Chunks.kos
+    Map =         Data\HTz\HTz_Map1.kos
+    Objects =     Data\HTz\Obj_Act1.dat
+    Rings =       Data\HTz\Rng_Act1.dat
+  end;  
+;------------------------------------------------------------  
+[Hill Top Zone Act 2]
+  begin
+    Edit Type =   Mode 0 
+    Folder =      .\
+    Palette2 =    Data\HTz\HTz.Pal
+    Tiles  =      Data\EHz\Tiles.kos
+    Blocks =      Data\EHz\Blocks.kos
+    Chunks =      Data\EHz\Chunks.kos
+    Map =         Data\HTz\HTz_Map2.kos
+    Objects =     Data\HTz\Obj_Act2.dat
+    Rings =       Data\HTz\Rng_Act2.dat
+  end;
+;------------------------------------------------------------
+[Hidden Palace Zone]
+  begin
+    Edit Type =   Mode 0 
+    Folder =      .\
+    Palette2 =    Data\HPz\HPz.Pal
+    Tiles  =      Data\OOz\Tiles.kos
+    Blocks =      Data\OOz\Blocks.kos
+    Chunks =      Data\OOz\Chunks.kos
+    Map =         Data\OOz\OOz_Map1.kos
+    Objects =     Data\HPz\Obj_Act.dat
+    Rings =       Data\HPz\Rng_Act.dat
+  end;
+;------------------------------------------------------------
+[Oil Ocean Zone Act 1]
+  begin
+    Edit Type =   Mode 0 
+    Folder =      .\
+    Palette2 =    Data\OOz\OOz.Pal
+    Tiles  =      Data\OOz\Tiles.kos
+    Blocks =      Data\OOz\Blocks.kos
+    Chunks =      Data\OOz\Chunks.kos
+    Map =         Data\OOz\OOz_Map1.kos
+    Objects =     Data\OOz\Obj_Act1.dat
+    Rings =       Data\OOz\Rng_Act1.dat
+  end;
+;------------------------------------------------------------
+[Oil Ocean Zone Act 2]
+  begin
+    Edit Type =   Mode 0 
+    Folder =      .\
+    Palette2 =    Data\OOz\OOz.Pal
+    Tiles  =      Data\OOz\Tiles.kos
+    Blocks =      Data\OOz\Blocks.kos
+    Chunks =      Data\OOz\Chunks.kos
+    Map =         Data\OOz\OOz_Map2.kos
+    Objects =     Data\OOz\Obj_Act2.dat
+    Rings =       Data\OOz\Rng_Act2.dat
+  end;
+;------------------------------------------------------------
+[Mystic Cave Zone Act 1]
+  begin
+    Edit Type =   Mode 0 
+    Folder =      .\
+    Palette2 =    Data\MCz\MCz.Pal
+    Tiles  =      Data\MCz\Tiles.kos
+    Blocks =      Data\MCz\Blocks.kos
+    Chunks =      Data\MCz\Chunks.kos
+    Map =         Data\MCz\MCz_Map1.kos
+    Objects =     Data\MCz\Obj_Act1.dat
+    Rings =       Data\MCz\Rng_Act1.dat
+  end;
+;------------------------------------------------------------   
+[Mystic Cave Zone Act 2]
+  begin
+    Edit Type =   Mode 0 
+    Folder =      .\
+    Palette2 =    Data\MCz\MCz.Pal
+    Tiles  =      Data\MCz\Tiles.kos
+    Blocks =      Data\MCz\Blocks.kos
+    Chunks =      Data\MCz\Chunks.kos
+    Map =         Data\MCz\MCz_Map2.kos
+    Objects =     Data\MCz\Obj_Act2.dat
+    Rings =       Data\MCz\Rng_Act2.dat
+  end;
+;------------------------------------------------------------   
+[Casino Night Zone Act 1]
+  begin
+    Edit Type =   Mode 0 
+    Folder =      .\
+    Palette2 =    Data\CNz\CNz.Pal
+    Tiles  =      Data\CNz\Tiles.kos
+    Blocks =      Data\CNz\Blocks.kos
+    Chunks =      Data\CNz\Chunks.kos
+    Map =         Data\CNz\CNz_Map1.kos
+    Objects =     Data\CNz\Obj_Act1.dat
+    Rings =       Data\CNz\Rng_Act1.dat
+  end;
+;------------------------------------------------------------   
+[Casino Night Zone Act 2]
+  begin
+    Edit Type =   Mode 0 
+    Folder =      .\
+    Palette2 =    Data\CNz\CNz.Pal
+    Tiles  =      Data\CNz\Tiles.kos
+    Blocks =      Data\CNz\Blocks.kos
+    Chunks =      Data\CNz\Chunks.kos
+    Map =         Data\CNz\CNz_Map2.kos
+    Objects =     Data\CNz\Obj_Act2.dat
+    Rings =       Data\CNz\Rng_Act2.dat
+  end;
+;------------------------------------------------------------   
+[Chemical Plant Zone Act 1]
+  begin
+    Edit Type =   Mode 0 
+    Folder =      .\
+    Palette2 =    Data\CPz\CPz.Pal
+    Tiles  =      Data\CPz\Tiles.kos
+    Blocks =      Data\CPz\Blocks.kos
+    Chunks =      Data\CPz\Chunks.kos
+    Map =         Data\CPz\CPz_Map1.kos
+    Objects =     Data\CPz\Obj_Act1.dat
+    Rings =       Data\CPz\Rng_Act1.dat
+  end;
+;------------------------------------------------------------    
+[Chemical Plant Zone Act 2]
+  begin
+    Edit Type =   Mode 0 
+    Folder =      .\
+    Palette2 =    Data\CPz\CPz.Pal
+    Tiles  =      Data\CPz\Tiles.kos
+    Blocks =      Data\CPz\Blocks.kos
+    Chunks =      Data\CPz\Chunks.kos
+    Map =         Data\CPz\CPz_Map2.kos
+    Objects =     Data\CPz\Obj_Act2.dat
+    Rings =       Data\CPz\Rng_Act2.dat
+  end;
+;------------------------------------------------------------   
+[Death Egg Zone]
+  begin
+    Edit Type =   Mode 0 
+    Folder =      .\
+    Palette2 =    Data\DEz\DEz.Pal
+    Tiles  =      Data\CPz\Tiles.kos
+    Blocks =      Data\CPz\Blocks.kos
+    Chunks =      Data\CPz\Chunks.kos
+    Map =         Data\DEz\DEz_Map.kos
+    Objects =     Data\DEz\Obj_Act.dat
+  end;
+;------------------------------------------------------------    
+[Aquatic Ruin Zone Act 1]
+  begin
+    Edit Type =   Mode 0 
+    Folder =      .\
+    Palette2 =    Data\ARz\ARz.Pal
+    Tiles  =      Data\ARz\Tiles.kos
+    Blocks =      Data\ARz\Blocks.kos
+    Chunks =      Data\ARz\Chunks.kos
+    Map =         Data\ARz\ARz_Map1.kos
+    Objects =     Data\ARz\Obj_Act1.dat
+    Rings =       Data\ARz\Rng_Act1.dat
+  end;
+;------------------------------------------------------------
+[Aquatic Ruin Zone Act 2]
+  begin
+    Edit Type =   Mode 0 
+    Folder =      .\
+    Palette2 =    Data\ARz\ARz.Pal
+    Tiles  =      Data\ARz\Tiles.kos
+    Blocks =      Data\ARz\Blocks.kos
+    Chunks =      Data\ARz\Chunks.kos
+    Map =         Data\ARz\ARz_Map2.kos
+    Objects =     Data\ARz\Obj_Act2.dat
+    Rings =       Data\ARz\Rng_Act2.dat
+  end;
+;------------------------------------------------------------  
+[Sky Chase Zone]
+  begin
+    Edit Type =   Mode 0 
+    Folder =      .\
+    Palette2 =    Data\SCz\SCz.Pal
+    Tiles  =      Data\SCz\Tiles.kos
+    Blocks =      Data\SCz\Blocks.kos
+    Chunks =      Data\SCz\Chunks.kos
+    Map =         Data\SCz\SCz_Map.kos
+    Objects =     Data\SCz\Obj_Act.dat
+    Rings =       Data\SCz\Rng_Act.dat
+  end;
+;------------------------------------------------------------
